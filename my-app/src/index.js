@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import NavBar from './components/NavBar.js'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <NavBar />
+    <h2>Las Ofertas de la semana</h2>
   </React.StrictMode>,
   document.getElementById('root')
 );
