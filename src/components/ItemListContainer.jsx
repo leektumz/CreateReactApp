@@ -1,9 +1,10 @@
 import '../App.css';
 import React from 'react';
 
-function ItemListContainer() {
+function ItemListContainer(props) {
   return(
     <div className="ItemListContainer"> 
+    <h1>Bienvenido de nuevo usuario: {props.name}</h1>
      <section class="wrapper">
         <div class="container">
             <span class="arrow arrow-left">&#60;</span>
